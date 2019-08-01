@@ -44,7 +44,7 @@ public class MybatisPlusApplicationTests {
 
         User user = new User();
         user.setId(1L);
-        user.setAge(28);
+        user.setAge(27);
 
         int result = userMapper.updateById(user);
         System.out.println(result);
